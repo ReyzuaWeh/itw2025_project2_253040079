@@ -1,0 +1,31 @@
+@theme {
+  --color-primary: #102542;
+  --color-primary-alternate: #1a3a5c;
+  --color-secondary: #f87060;
+  --color-tertiary: #cdd7d6;
+  --color-light: #b3a394;
+  --color-base-text: #ffffff;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: "Quicksand", sans-serif;
+  }
+  h1 {
+    @apply font-bold lg:text-5xl text-2xl;
+  }
+  h2 {
+    @apply font-bold lg:text-4xl text-xl;
+  }
+  h3 {
+    @apply font-semibold lg:text-xl text-lg;
+  }
+  p {
+    @apply text-justify text-inherit/85;
+  }
+  /* section */
+  section {
+    @apply min-h-dvh relative flex flex-col items-stretch justify-center py-20 px-5;
+  }
+}

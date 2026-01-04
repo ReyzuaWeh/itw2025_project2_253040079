@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@import "./base.css";
+@import "./style.css";
+@import "./carousel.css";
+@import "./animation.css";

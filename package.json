@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "aos": "^2.3.4",
+    "jquery": "^3.7.1",
+    "tailwindcss": "^4.1.18",
+    "tilt.js": "^1.2.1"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -i ./css/input.css -o ./css/output.css --minify",
+    "watch:css": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "name": "tiara-travel",
+  "version": "1.0.0",
+  "main": "index.html",
+  "type": "module",
+  "license": "MIT"
+}
