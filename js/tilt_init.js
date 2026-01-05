@@ -1,2 +1,2 @@
 import $ from "jquery";
-import "tilt.js";
+import Tilt from "tilt.js";
