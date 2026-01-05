@@ -1,3 +1,5 @@
+import AOS from "aos";
+import $ from "jquery";
 const itemWisata = $(".item-wisata");
 itemWisata.attr("data-aos", "zoom-in");
 itemWisata.attr("data-aos-once", "true");

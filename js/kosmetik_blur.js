@@ -1,3 +1,4 @@
+import $ from "jquery";
 const stableClass =
   "absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl";
 const kosmetikKanan = $(".kosmetik-kanan");
