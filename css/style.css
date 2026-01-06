@@ -117,4 +117,10 @@
   .item-wisata > .overlay {
     @apply group-hover:opacity-100 group-active:opacity-100 opacity-0 w-full transition-all duration-500 ease-in-out absolute inset-0 bg-black z-20 flex justify-center flex-col px-2.5;
   }
+  .item-wisata p {
+    @apply text-tertiary text-sm mb-2;
+  }
+  .item-wisata h2 {
+    @apply xl:text-2xl lg:text-xl text-lg;
+  }
 }
